@@ -1,0 +1,19 @@
+body{
+    color: rgb(230, 110, 41);
+}
+h1{
+    color: rgb(20, 19, 19);
+}
+h2{
+    color: hwb(240 0% 0%);
+}
+#head-lib{
+    color: chartreuse;
+}
+#head-h2{
+color: rgb(20, 19, 19);
+}
+.para{
+    color: rgb(247, 9, 9);
+}
+
