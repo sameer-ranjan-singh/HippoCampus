@@ -1,19 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+ :root{
+    --primary-color:red;
+ }
 body{
-    color: rgb(230, 110, 41);
+    font-family: 'DM Sans', sans-serif
 }
-h1{
-    color: rgb(20, 19, 19);
+hr{
+    margin: 1.5rem 0rem;
 }
-h2{
-    color: hwb(240 0% 0%);
+/**container**/
+.fluid-container{
+ padding-left: 1rem ;
+ padding-right: 1rem;
 }
-#head-lib{
-    color: chartreuse;
+.center-container{
+max-width: 600px;
+margin: auto;
 }
-#head-h2{
-color: rgb(20, 19, 19);
+/**Links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
-.para{
-    color: rgb(247, 9, 9);
+.link-primary{
+ background-color:var(--primary-color) ;
+ border-radius: 0.5rem;
+ color: white;
 }
+.link-secondary{
+    color:var(--primary-color) ;
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color) ;
 
+}
