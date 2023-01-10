@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
  :root{
     --primary-color:red;
+    --dark-gray:#6b7280;
  }
 body{
     font-family: 'DM Sans', sans-serif
@@ -61,4 +62,20 @@ margin: auto;
 }
 .navigation .link-active{
     font-weight: bold;
+}
+/** Header **/
+.hero{
+  padding: 2rem;
+}
+.hero .hero-img{
+    margin: auto;
+    display: black;
+    max-width: 350px;
+}
+.hero .hero-heading{
+    color:var(--dark-gray);
+    padding: top 1rem; ;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color) ;
 }
