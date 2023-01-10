@@ -2,6 +2,7 @@
  :root{
     --primary-color:red;
     --dark-gray:#6b7280;
+    --off-white:#cbd5e1;
  }
 body{
     font-family: 'DM Sans', sans-serif
@@ -78,4 +79,15 @@ margin: auto;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color) ;
+}
+
+/**Sections**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+background-color: var(--off-white);
 }
