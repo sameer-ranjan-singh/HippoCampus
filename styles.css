@@ -71,16 +71,16 @@ margin: auto;
 }
 .hero .hero-img{
     margin: auto;
-    display: black;
+    display: block;
     max-width: 350px;
 }
 .hero .hero-heading{
     color:var(--dark-gray);
-    padding: top 1rem; ;
+    padding-top: 1rem;
     text-align: center;
 }
 .hero .hero-heading .heading-inverted{
-    color: var(--primary-color) ;
+    color: var(--primary-color);
 }
 
 /**Sections**/
@@ -100,13 +100,17 @@ background-color: var(--off-white);
     padding: 2rem 0rem;
     text-align: center; 
     color: white;
+    border-top-right-radius: 1rem;
 
 }
 .footer .link{
-    color:white
+    color:white;
     ;
 }
 .footer ul{
     padding: inline start 0px; ;
 }
-/** **/
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
