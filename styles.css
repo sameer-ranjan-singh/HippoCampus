@@ -56,6 +56,12 @@ margin: auto;
     font-size: 2.5rem;
     
 }
+.navigation .campus-color{
+    color: var(--dark-gray);
+}
+.navigation .hippo-color{
+    color: #cbd5e1;
+}
 .navigation .nav-pills{
     text-align: right;
 }
@@ -66,31 +72,41 @@ margin: auto;
 .navigation .link-active{
     font-weight: bold;
 }
-.navigation .campus-color{
-    color: var(--dark-gray);
-}
-.navigation .hippo-color{
-    color: #cbd5e1;
-}
+
 /** Header **/
 .hero{
-  padding: 2rem;
+  padding: 1rem;
 }
 .hero .hero-img{
     margin: auto;
     display: block;
     max-width: 350px;
 }
-.hero .hero-heading{
+.hero .hero-heading {
     color:var(--dark-gray);
-    padding-top: 1rem;
+    padding-top: 2 rem;
     text-align: center;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
 }
- 
 
+
+.hero-blog.heading{
+    font-size: xx-large;
+    text-align: center;
+    padding: 0rem;  
+ }
+ 
+ .hero-blog.img1{
+   text-align: center;
+ }
+
+.hero-blog.img2{
+    max-width:100px;
+    float: right;
+}
+ 
 /**Sections**/
 .section{
     padding: 2rem;
