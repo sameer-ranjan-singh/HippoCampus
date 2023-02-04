@@ -3,6 +3,7 @@
     --primary-color:red;
     --dark-gray:#6b7280;
     --off-white:#cbd5e1;
+    
  }
 body{
     font-family: 'DM Sans', sans-serif;
@@ -96,10 +97,19 @@ margin: auto;
     font-size: xx-large;
     text-align: center;
     padding: 0rem;  
+   
  }
- 
+ .hero-blog.padding{
+    list-style: none;
+ padding-inline-start: 0px;
+ }
+ .hero-blog.content{
+    list-style: square;
+    padding-inline-start: 30px;
+ }
  .hero-blog.img1{
    text-align: center;
+  
  }
 
 .hero-blog.img2{
@@ -120,7 +130,7 @@ background-color: var(--off-white);
 
 /**Footer**/
 .footer{
-    background-color: var(--primary-color);
+    background-color: black;
     padding: 2rem 0rem;
     text-align: center; 
     color: white;
@@ -137,4 +147,13 @@ background-color: var(--off-white);
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+}
+.git-color{
+    color: whitesmoke;
+}
+.linkedin-color{
+    color:#0A66C2 ;
+}
+.twitter-color{
+color: #00acee;
 }
