@@ -34,7 +34,7 @@ margin: auto;
 .link-primary:hover{
     background-color: white;
     color: var(--primary-color);
-    transition: 0.2s linear;
+    transition: 0.1s linear;
 }
 .link-secondary{
     color:var(--primary-color) ;
@@ -44,7 +44,7 @@ margin: auto;
 .link-secondary:hover{
     color:white ;
     background-color: var(--primary-color);
-    transition: 0.3s linear;
+    transition: 0.1s linear;
 }
 /**List**/
 .list-non-bullet{
@@ -141,12 +141,12 @@ background-color: var(--off-white);
     background-color: var(--primary-color);
     padding: 1.5rem 4rem;
     text-align: center; 
-   border-top-left-radius: 10rem;
-   border-top-right-radius: 10rem;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
 }
 .footer .link{
     color:white;
-    ;
+    
 }
 .footer ul{
     padding-inline-start: 0px;
@@ -155,18 +155,13 @@ background-color: var(--off-white);
     font-weight: bold;
     font-size: large;
 }
-.git-color{
-    color: whitesmoke;
-}
-.linkedin-color{
-    color:#0A66C2 ;
-}
-.twitter-color{
-color: #00acee;
-}
-
 .imagef {
     width: 50px;
-    padding: 0.2rem;
+  }
+  .footer-inline{
+    list-style: none;
+  }
+  .footer-inline2{
+    display: inline; 
   }
   
