@@ -5,6 +5,14 @@
     --off-white:#cbd5e1;
     
  }
+ .nav-brand{
+    text-shadow:  40px 50px 55px black ;
+   
+ }
+ hr{
+    box-shadow: 0px 0px 2px  black;
+ }
+ 
 body{
     font-family: 'DM Sans', sans-serif;
     margin: 0px;
@@ -59,7 +67,7 @@ margin: auto;
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    
+    box-shadow: 0px 0px 15px  black;
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -135,6 +143,9 @@ margin: auto;
 .ow{
 background-color: var(--off-white);
 }
+.blog-area{
+    margin-bottom: 50px;
+}
 
 /**Footer**/
 .footer{
@@ -143,6 +154,7 @@ background-color: var(--off-white);
     text-align: center; 
     border-top-left-radius: 10rem;
     border-top-right-radius: 10rem;
+    box-shadow: 0px 0px 7px  black;
 }
 .footer .link{
     color:white;
