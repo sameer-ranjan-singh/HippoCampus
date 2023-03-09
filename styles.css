@@ -7,7 +7,6 @@
  }
  .nav-brand{
     text-shadow:  40px 50px 55px black ;
-   
  }
  hr{
     box-shadow: 0px 0px 2px  black;
@@ -30,6 +29,8 @@ hr{
 .center-container{
 max-width: 600px;
 margin: auto;
+text-align: center;
+
 }
 /**Links**/
 .link{
