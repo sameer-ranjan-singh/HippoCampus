@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
- :root{
-    --primary-color:red;
-    --dark-gray:#6b7280;
-    --off-white:#cbd5e1;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+
+ 
+:root{
+    --primary-color:#131313;
+    --dark-gray:#3f63aa;
     
- }
+}
+ 
  .nav-brand{
-    text-shadow:  40px 50px 55px black ;
+    text-shadow:  40px 50px 55px rgb(88, 87, 87) ;
+    font-family: 'Rubik Wet Paint', cursive ;
  }
  hr{
     box-shadow: 0px 0px 2px  black;
@@ -17,11 +23,34 @@
 body{
     font-family: 'DM Sans', sans-serif;
     margin: 0px;
+    font-family: 'Quantico', sans-serif;
+}
+.homeGradient{
+    background: linear-gradient(170.2deg, #ffffff 12.72%, #d5c4e4 58.73%, #eca3a3 101.06%);
+}
+.blogGradient{
+    background: linear-gradient(190.2deg, #ffffff 12.72%, #fafafa 58.73%, #a0b6d1 101.06%);
 }
 hr{
     margin: 1.5rem 0rem;
 }
+ul{
+  list-style: none;
+  
+  
+}
+.linear-grad{
+    background: linear-gradient( 480.2deg, #fc0606 12.72%, #7f07e2 58.73%, #c72222 101.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /**container**/
+.container{
+    letter-spacing: 2px;
+    
+    
+}
 .fluid-container{
  padding-left: 1rem ;
  padding-right: 1rem;
@@ -36,11 +65,20 @@ text-align: center;
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    letter-spacing: 4px;
 }
+
 .link-primary{
- background-color:var(--primary-color) ;
+ /* background-color:var(--primary-color) ; */
+ 
+ background: linear-gradient( 480.2deg, #fc0606 12.72%, #7f07e2 58.73%, #c72222 101.06%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+
  border-radius: 0.5rem;
  color: white;
+
 }
 .link-primary:hover{
     background-color: white;
@@ -51,6 +89,10 @@ text-align: center;
     color:var(--primary-color) ;
     border-radius: 0.5rem;
     border:1px solid var(--primary-color) ;
+
+    background: linear-gradient( 480.2deg, #fc0606 12.72%, #7f07e2 58.73%, #c72222 101.06%);
+    -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
 }
 .link-secondary:hover{
     color:white ;
@@ -67,7 +109,7 @@ text-align: center;
 }
 /**navigation**/
 .navigation{
-    background-color: var(--primary-color);
+    background-color: rgb(22, 20, 20);
     color: white;
     padding: 1rem;
     box-shadow: 0px 0px 11px  black;
@@ -104,9 +146,15 @@ text-align: center;
     max-width: 350px;
 }
 .hero .hero-heading {
-    color:var(--dark-gray);
+    /* color:var(--dark-gray); */
     padding-top: 2 rem;
     text-align: center;
+
+    background: linear-gradient(480.2deg, #d33737 12.72%, #752fd8 58.73%, #72caec 101.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Quantico', sans-serif;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
@@ -115,8 +163,7 @@ text-align: center;
 .hero-blog.heading{
     font-size: xx-large;
     text-align: center;
-    padding: 0rem;  
-   
+    padding: 0rem; 
  }
  .hero-blog.padding{
     list-style: none;
@@ -152,7 +199,7 @@ background-color: var(--off-white);
 
 /**Footer**/
 .footer{
-    background-color: var(--primary-color);
+    background-color: whitesmoke;
     padding: 1.5rem 4rem;
     text-align: center; 
     border-top-left-radius: 10rem;
@@ -161,7 +208,6 @@ background-color: var(--off-white);
 }
 .footer .link{
     color:white;
-    
 }
 .footer ul{
     padding-inline-start: 0px;
