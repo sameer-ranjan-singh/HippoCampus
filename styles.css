@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
  
 :root{
@@ -11,9 +11,9 @@
 }
  
  .nav-brand{
-    text-shadow:  40px 50px 55px rgb(88, 87, 87) ;
-    font-family: 'Rubik Wet Paint', cursive ;
-    
+
+    /* font-family: 'Rubik Wet Paint', cursive ; */
+    font-family: 'Cinzel', serif;
  }
  hr{
     box-shadow: 0px 0px 2px  black;
@@ -124,6 +124,7 @@ text-align: center;
 /**List**/
 .list-non-bullet{
     list-style: none;
+    padding-left: 0px;
 }
 .list-item-inline{
  display: inline;
@@ -131,10 +132,10 @@ text-align: center;
 }
 /**navigation**/
 .navigation{
-    background-color: rgb(22, 20, 20);
+    /* background-color: rgb(63, 62, 62); */
     color: white;
-    padding: 1rem;
-    box-shadow: 0px 0px 11px  black;
+    padding: 1rem ;
+    box-shadow: 0px 0px 11px  rgb(219, 216, 216);
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -142,16 +143,19 @@ text-align: center;
     
 }
 .navigation .campus-color{
-    color: var(--dark-gray);
+    /* color: #fb8500; */
+    color: #fb8500;
 }
 .navigation .hippo-color{
-    color: #cbd5e1;
+    /* color: #ffb703; */
+    color: #fb8500;
 }
 .navigation .nav-pills{
-    text-align: right;
+    text-align: center;
+    margin: 0px;
 }
 .navigation .link{
-    color: whitesmoke;
+    color: rgb(233, 229, 229);
     
 }
 .navigation .link-active{
