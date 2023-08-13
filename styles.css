@@ -135,12 +135,14 @@ text-align: center;
     /* background-color: rgb(63, 62, 62); */
     color: white;
     padding: 1rem ;
-    box-shadow: 0px 0px 11px  rgb(219, 216, 216);
+    /* box-shadow: 0px 0px 11px  rgb(219, 216, 216); */
 }
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 2.5rem;
-    
+    /* display:"flex";
+    justify-content: center; */
+    text-align: center;    
 }
 .navigation .campus-color{
     /* color: #fb8500; */
